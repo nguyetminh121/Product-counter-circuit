@@ -4,6 +4,7 @@ GIỚI THIỆU
 Mục tiêu của đề tài là thiết kế một hệ thống đếm chính xác, hiệu quả nhằm cải thiện quy trình sản xuất và kiểm tra hàng hóa.
 
 MÔ TẢ
+#Sử dụng LM358 có thể xây dựng một đơn vị cảm biến với một đèn LED hồng ngoại và photodiode. Đồng thời, IC NE555 được sử dụng để tạo ra các xung, sau đó được đưa vào bộ đếm 74LS90 để đếm các xung và kích hoạt 74LS47 để chuyển đổi BCD thành màn hình LED 7 đoạn để hiển thị kết quả.
 
 YÊU CẦU PHẦN CỨNG
 + IC LM358
@@ -14,13 +15,11 @@ YÊU CẦU PHẦN CỨNG
 + điện trở
 + button
 + Led đơn
++ Led hồng ngoại
++ Tụ điện
+
 SCHEMATIC
 ![image](https://github.com/user-attachments/assets/60112aaf-e7df-47b6-acbf-34f3db558013)
 
 ![image](https://github.com/user-attachments/assets/cc42bf97-4ef9-4235-a1a2-a3db96cb8033)
 
-#Using an LM358 can build a sensor unit with an infrared LED and a
-photodiode. At the same time, the IC NE555 is used to generate
-pulses, which are then fed into the 74LS90 counter to count the
-pulses and trigger the 74LS47 to convert BCD to a 7-segment LED
-display to show the results.
